@@ -2,6 +2,8 @@ import React, { useEffect } from 'react';
 import './Header.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { Link } from 'react-router-dom';
+
 
 const Header = () => {
   useEffect(() => {
@@ -36,9 +38,9 @@ const Header = () => {
         <button id="theme-toggle" className="theme-toggle">
           <i className="fas fa-moon"></i>
         </button>
-        <a href="#" className="cta-button primary-button">
+        <Link to="/login" className="cta-button primary-button">
           Đăng Nhập
-        </a>
+        </Link>
       </nav>
     </header>
   );

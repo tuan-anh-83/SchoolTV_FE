@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+.login_background {
+   background: linear-gradient(to bottom right, #ffffff, #a0c4ff);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+}
+  
+.login_form {
+   background-color: white;
+   padding: 30px;
+   border-radius: 8px;
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+   width: 20%;
+   height: 47%;
+   max-height: 900px;
+   max-width: 400px;
+}
+  
+h1 {
+   text-align: center;
+   margin-top: -2px;
+   font-size: 37px;
+   font-family: "Nunito", serif;
+}
+  
+.login_a1 {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-family: "Nunito", serif;
+    color: #515151;
+    margin-top: -20px;
+}
+
+.google_btn {
+   display: flex;
+   justify-content: center;
+   margin-top: 40px;
+   width: 100%;
+   height: 42px;
+   font-size: 21px;
+   color: black;
+   box-shadow: 20%;
+}
+
+.google_icon {
+   color: red;
+}
+
+.divider {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 20px 0;
+   position: relative;
+   margin-top: 40px;
+
+   &::before,
+   &::after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      width: 40%;
+      height: 1px;
+      background-color: #ddd;
+   }
+
+   &::before {
+      left: 0;
+   }
+
+   &::after {
+      right: 0;
+   }
+
+   span {
+      background-color: white;
+      padding: 0 10px;
+      font-size: 18px;
+      color: #515151;
+      font-family: "Nunito", serif;
+   }
+}
+  
+
+.login_body {
+   margin-top: 32px;
+
+      .ant-form-item-label, .ant-form-item-label > label {
+         font-size: 18px !important; 
+         font-weight: normal;
+         font-family: "Nunito", serif;
+      }
+
+      .ant-input {
+         height: 45px;  
+         font-size: 18px;  
+         border-radius: 8px;
+         background-color: #f0f0f0;
+         border: 1px solid #d9d9d9;  
+         transition: background-color 0.3s ease;
+      }
+
+      .ant-input:focus {
+         background-color: white;   
+         border: 1px solid #1890ff; 
+      }
+
+      .login_forgot_pw {
+         color: #1890ff;
+         font-size: 16px;
+         text-decoration: none; 
+         margin-left: 3px;
+      }
+      
+      .login_forgot_pw:hover {
+         text-decoration: underline; 
+      }
+
+      .ant-btn {
+         margin-top: -20px;
+         height: 50px;
+         font-size: 23px;
+         padding: 0 20px;
+         line-height: 50px;
+         border-radius: 8px;
+         transition: background-color 0.3s ease;
+         font-family: "Nunito", serif;
+      }
+      
+      .ant-btn:hover {
+         background-color: white;  
+         color: #4e8dff;              
+      }
+}
+
+.login_register {
+   text-align: center;
+   font-size: 21px;
+   font-family: "Nunito", serif;
+   margin-top: -1px;
+}
+
+.login_1 {
+   text-align: center;
+   font-size: 20px;
+   margin-top: 6px;
+   font-family: "Nunito", serif;
+
+      .login_link1 {
+         color: #1890ff;
+         text-decoration: none; 
+      }
+      
+      .login_link1:hover {
+         text-decoration: underline; 
+      }
+}
